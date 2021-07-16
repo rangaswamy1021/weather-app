@@ -1,0 +1,122 @@
+.stretch-card {
+  &>.card {
+    min-width: 100%;
+    width: 100%;
+  }
+}
+
+.flex {
+  flex: 1 1 auto;
+}
+
+.padding {
+  padding: 5rem;
+}
+
+.grid-margin,
+.purchace-popup>div {
+  margin-bottom: 25px;
+}
+
+.card {
+  border: 0;
+  border-radius: 2px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+
+  .card-body {
+    padding: 1.88rem 1.81rem;
+  }
+}
+
+.card-weather {
+  background: #e1ecff;
+  background-image: linear-gradient(to left bottom, #d6eef6, #dff0fa, #e7f3fc, #eff6fe, #f6f9ff);
+
+  .weather-date-location {
+    padding: 0 0 38px;
+  }
+
+  .weather-data {
+    padding: 0 0 4.75rem;
+  }
+
+  .card-body {
+    background: #fff;
+  }
+
+  .weakly-weather {
+    background: #fff;
+    overflow-x: auto;
+
+    .weakly-weather-item {
+      i {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+  flex: 0 0 20%;
+  @media (max-width:767px) { 
+    flex: 0 0 50%;
+  }
+  border-right: 1px solid #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+}
+span.sea-level {
+  font-weight: 600;
+}
+
+@media (max-width: 767px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+
+.card-weather .card-body:first-child {
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+  background-size: cover
+}
+
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: #969696;
+}
+
+p {
+  font-size: 13px;
+}
+
+.display-3 {
+  font-size: 2.5rem;
+}
+
+span {
+  &.sea-level {
+    font-weight: 600;
+  }
+}

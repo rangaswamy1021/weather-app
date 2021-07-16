@@ -1,0 +1,104 @@
+.card-no-border {
+  .card {
+    -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    border-color: #d7dfe3;
+    border-radius: 4px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  }
+}
+
+.card-img-overlay {
+  bottom: 0;
+  left: 0;
+  padding: 1.25rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+html {
+  body {
+    .dl {
+      display: inline-block;
+    }
+  }
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+.card-text {
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.b-r {
+  border-right: 1px solid rgba(120, 130, 140, 0.13);
+}
+
+.text-info {
+  color: #1e88e5 !important;
+}
+
+.display-6 {
+  font-size: 36px;
+}
+
+.mdi {
+  display: inline-block;
+  font-family: "weathericons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+.m-l-20 {
+  margin-left: 20px;
+}
+
+.m-b-0 {
+  margin-bottom: 0;
+}
+
+small {
+  font-size: 80%;
+  font-weight: 400;
+}
+
+.city-1 {
+  background-color: rgba(6, 179, 219, 0.61);
+}
+
+.city-2 {
+  background-color: rgba(78, 212, 134, 0.63);
+}
+
+.city-3 {
+  background-color: rgba(227, 182, 61, 0.65);
+}
+
+.city-4 {
+  background-color: rgba(97, 57, 246, 0.68);
+}
+
+.city-5 {
+  background-color: rgba(188, 53, 89, 0.78);
+}
+
+.card-head {
+  padding: 1.25rem;
+}
+
+.main {
+  .title {
+    font-size: 36px;
+    font-weight: 300;
+  }
+}
